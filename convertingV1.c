@@ -4,7 +4,7 @@
 #include "converting.h"
 // V1
 
-void converting(void) {
+void convertingV1(void) {
 printf ("*** Start of Converting Strings to int Demo ***\n") ;
 char intString [BUFFER_SIZE];
 int intNumber;
