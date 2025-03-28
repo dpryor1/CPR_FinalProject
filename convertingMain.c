@@ -2,6 +2,6 @@
 #include "converting.h"
 
 int main(void) {
-    converting();
+    convertingV3();
     return 0;
 }

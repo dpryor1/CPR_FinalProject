@@ -10,7 +10,7 @@ char intString [BUFFER_SIZE];
 int intNumber;
 do {
 printf ("Type an int numeric string (q - to quit) : \n");
-fgets (intString, BUFFER_SIZE, stdin) ;
+fgets (intString, BUFFER_SIZE, stdin);
 intString [strlen(intString) - 1] = '\0';
 if (strcmp (intString, "q") != 0) {
 intNumber = atoi (intString);
