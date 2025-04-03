@@ -1,7 +1,10 @@
 #define BUFFER_SIZE 80  // Define the size for input strings
 #include "manipulating.h"
 
-
+int main (void) {
+    manipulating();
+    return 0;
+}
 void manipulating(void) 
 {
     /* Version 1 */     // Function to demonstrate string concatenation
