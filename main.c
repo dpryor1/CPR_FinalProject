@@ -1,7 +1,7 @@
 #include "fundamentals.h"
 #include "manipulating.h"
 #include "converting.h"
-#include "tokenizing"
+#include "tokenizing.h"
 
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
         printf("2 - Manipulating\n");
         printf("3 - Converting\n");
         printf("4 - Tokenizing\n");
-        printf("0 - Exit");
+        printf("0 - Exit\n");
         printf("Which module to run? \n");
         fgets(buff, 10, stdin);
         switch (buff[0])

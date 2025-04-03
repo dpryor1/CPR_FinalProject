@@ -3,10 +3,7 @@
 #define BUFFER_SIZE 300 //this is settings our input buffer to a max of 300 characters
 #include "tokenizing.h" // This makes sure to include the tokenizing header file
 
-int main (void) {
-    tokenizing();
-    return 0;
-}
+
 //V1
 void tokenizing(void) { // this is the function declaration
     printf("*** Start of Tokenizing Words Demo ***\n");   //The beginning message for the user to let them know the demo has started

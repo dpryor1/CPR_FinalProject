@@ -2,10 +2,7 @@
 #define BUFFER_SIZE 80 //set capacity of BUFFER_SIZE as 80
 #include "converting.h" //include header file
 
-int main (void) {
-    converting ();
-    return 0;
-}
+
 /* Version 1 */
 void converting(void) {  //this function will convert an integer string to an integer number
 printf ("*** Start of Converting Strings to int Demo ***\n") ;
