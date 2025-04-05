@@ -125,7 +125,6 @@ void manipulating(void)
 
 
 
-/* Version 2 */     // Function to demonstrate string comparison
 
 
 
